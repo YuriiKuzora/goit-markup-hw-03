@@ -70,8 +70,6 @@ img {
 }
 
 .logo {
-   border: 1px solid #f44336;
-
    font-family: 'Raleway';
    font-weight: 700;
    font-size: 26px;
@@ -167,9 +165,12 @@ img {
    overflow: hidden;
 }
 
+.section {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+
 .subject .subtitle {
-   border: 1px solid #f44336;
-   margin-top: 94px;
    margin-bottom: 10px;
 
    font-size: 14px;
@@ -179,8 +180,6 @@ img {
 }
 
 .subject .slogan {
-   border: 1px solid #f44336;
-   margin-top: 94px;
    margin-bottom: 50px;
 
    font-weight: 700;
@@ -193,12 +192,6 @@ img {
    color: var(--text-color-silver);
 }
 
-.subject .imeg {
-   margin-bottom: 94px;
-}
-
-
-
 
 /* ?Section 3 */
 
@@ -208,7 +201,6 @@ img {
 }
 
 .heading .slogan {
-   margin-top: 94px;
    margin-bottom: 50px;
 
    font-weight: 700;
@@ -243,6 +235,7 @@ img {
 }
 
 .logo-footer {
+   padding-top: 60px;
    padding-bottom: 20px;
 }
 
@@ -255,6 +248,13 @@ img {
    color: var(--text-color-white);
 }
 
+.contact-footer {
+   margin-bottom: 9px;
+}
+
+.contact-footer:last-child {
+   margin-bottom: 0;
+}
 
 .link-maps {
    font-style: normal;
@@ -263,13 +263,6 @@ img {
    margin-bottom: 9px;
 }
 
-.list {
-   margin-bottom: 9px;
-}
-
-.list:last-child {
-   margin-bottom: 0;
-}
 
 .list .contact-link {
    font-weight: 400;
@@ -278,15 +271,15 @@ img {
    color: rgba(255, 255, 255, 0.6);
 }
 
-.contact-link:last-of-type {
+.tel {
    padding-bottom: 60px;
 }
+
 
 /* ?Portfolio */
 
 
 .list .button {
-   margin-top: 94px;
    margin-bottom: 34px;
 
    background-color: var(--heading-background-color);
