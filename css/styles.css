@@ -64,6 +64,10 @@ img {
 
 .page-heade {}
 
+.main-nav {
+   display: flex;
+}
+
 .logo-header {
    margin-top: 24px;
    margin-bottom: 25px;
@@ -85,10 +89,26 @@ img {
    color: var(--accent-color);
 }
 
-.nav {
+.nav,
+.contact {
+   display: flex;
    margin-top: 32px;
    margin-bottom: 32px;
 }
+
+.nav .item:not(:last-child) {
+   margin-right: 50px;
+}
+
+.contact .item:not(:last-child) {
+   margin-right: 50px;
+   flex-direction: row-reverse;
+}
+
+.contact .item
+/* .nav .item:last-child {
+   margin-right: 0px;
+} */
 
 .site-nav {
    font-weight: 500;
