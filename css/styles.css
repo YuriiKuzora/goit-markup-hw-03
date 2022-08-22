@@ -13,7 +13,6 @@
 }
 
 body {
-   width: 1600px;
    background-color: var(--background-color-white);
    color: var(--text-color-black);
    font-family: Roboto, sans-serif;
@@ -54,9 +53,9 @@ img {
 }
 
 .container {
-   width: 1170px;
-   margin-left: 200px;
-   margin-right: 200px;
+   width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
    padding-left: 15px;
    padding-right: 15px;
 }
@@ -64,41 +63,38 @@ img {
 /* ?Header */
 
 .page-header {
+   padding-top: 24px;
+   padding-bottom: 25px;
    border: 1px solid blue;
-   display: flex;
 }
 
 
 /* !main-nav */
 .main-nav {
-   padding-top: 0;
    display: flex;
+   padding-top: 0;
    justify-content: space-between;
-   align-items: center;
+
 }
 
 .flex-nav {
    display: flex;
    justify-content: center;
    align-items: center;
-   text-align: center;
 }
 
 /* !nav, contact */
-.nav,
+
 .contact {
+   margin-left: auto;
    display: flex;
-   margin-top: 32px;
-   margin-bottom: 32px;
 }
+
+
 
 
 
 .logo {
-   display: flex;
-   margin-top: 24px;
-   margin-bottom: 25px;
-
    font-family: 'Raleway';
    font-weight: 700;
    font-size: 26px;
@@ -155,13 +151,20 @@ img {
 /* ?Section 1 */
 
 .title {
-   width: 1600px;
-   height: 600px;
+   padding: 200px 0px;
+   align-items: center;
+   text-align: center;
    background-color: var(--background-color-fond);
 
 }
 
 .title .subtitle {
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 30px;
+   margin-top: auto;
+   padding-top: 200px;
+
    text-align: center;
    font-weight: 900;
    font-size: 44px;
@@ -172,6 +175,10 @@ img {
 }
 
 .button {
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-bottom: 200px;
    font-family: Roboto;
    width: 216px;
    height: 50px;
@@ -192,7 +199,7 @@ img {
 /* ?Section 2 */
 
 .subject {
-   background-color: var(--subject-background-color);
+   background-color: var(--background-color-white);
 }
 
 .visually-hidden {
@@ -206,6 +213,20 @@ img {
    padding-bottom: 94px;
 }
 
+.flex-block {
+   display: flex;
+}
+
+.block-subtitle {
+   width: 270px;
+   height: auto;
+   padding-right: 30px;
+}
+
+.block-subtitle:last-child {
+   padding-right: 0px;
+}
+
 .subject .subtitle {
    margin-bottom: 10px;
 
@@ -216,6 +237,7 @@ img {
 }
 
 .subject .slogan {
+   text-align: center;
    margin-bottom: 50px;
 
    font-weight: 700;
@@ -266,7 +288,6 @@ img {
 
 .footer {
    background-color: var(--background-color-fond);
-   width: 1600px;
    height: 252px;
 }
 
@@ -307,9 +328,7 @@ img {
    color: rgba(255, 255, 255, 0.6);
 }
 
-.tel {
-   padding-bottom: 60px;
-}
+
 
 
 /* ?Portfolio */
