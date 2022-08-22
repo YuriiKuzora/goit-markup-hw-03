@@ -21,42 +21,42 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- ?Hesder -->
+    <!-- ?Header -->
     <header class="page-header container">
-      <nav>
-        <div class="icon">
+      <div class="main-nav">
+        <nav class="flex-nav">
           <a href="./index.html" class="logo link"
             >Web<span class="accent">Studio</span></a
           >
-        </div>
-        <ul class="nav">
-          <li>
-            <a href="./index.html" class="site-nav link">Студія</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="site-nav link current"
-              >Портфоліо</a
+          <ul class="flex-nav nav">
+            <li class="item">
+              <a href="./index.html" class="site-nav link">Студія</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="site-nav link current"
+                >Портфоліо</a
+              >
+            </li>
+            <li class="item"><a href="" class="site-nav link">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="contact">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="contact-link link"
+              >info@devstudio.com</a
             >
           </li>
-          <li><a href="" class="site-nav link">Контакти</a></li>
+          <li class="item">
+            <a href="tel:+380961111111" class="contact-link link"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul class="nav">
-        <li>
-          <a href="mailto:info@devstudio.com" class="contact-link link"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="contact-link link"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <!-- ?Portfolio -->
-      <section class="container section">
+      <section class="portfolio container section">
         <h1 class="visually-hidden">Портфоліо</h1>
         <ul class="list">
           <li><button type="button" class="button">Усі</button></li>
@@ -65,7 +65,7 @@
           <li><button type="button" class="button">Дизайн</button></li>
           <li><button type="button" class="button">Маркетинг</button></li>
         </ul>
-        <ul>
+        <ul class="gallery-items">
           <li class="items">
             <img src="./images/portfolio/img.jpg" alt="" width="370" />
             <div class="text">
