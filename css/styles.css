@@ -410,7 +410,6 @@ img {
 .items {
    margin-right: 30px;
    margin-bottom: 30px;
-   /* background-color: tomato; */
 }
 
 .items:nth-child(3n) {
