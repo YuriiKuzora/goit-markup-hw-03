@@ -420,15 +420,11 @@ img {
    margin-bottom: 0px;
 }
 
-.items:last-child(n + 7) {
-   margin-bottom: 0px;
-}
-
 .items .text {
    width: 370px;
-   height: 110px;
-   border: 1px solid var(--border-items-color);
-   /* margin-bottom: 30px; */
+   border-bottom: 1px solid var(--border-items-color);
+   border-left: 1px solid var(--border-items-color);
+   border-right: 1px solid var(--border-items-color);
 }
 
 
