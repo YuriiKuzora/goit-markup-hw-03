@@ -359,6 +359,7 @@ img {
 
 .list .button {
    margin-right: 8px;
+   padding: 6px 25px;
 
    background-color: var(--heading-background-color);
    width: auto;
