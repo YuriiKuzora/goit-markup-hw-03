@@ -368,7 +368,6 @@ img {
 .list {
    display: flex;
    font-style: normal;
-   margin-bottom: 50px;
 }
 
 .portfolio .list {
