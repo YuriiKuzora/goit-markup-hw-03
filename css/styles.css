@@ -59,6 +59,11 @@ img {
    padding-right: 15px;
 }
 
+.section {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+
 /* ?Header */
 
 .page-header {
@@ -151,20 +156,17 @@ img {
 }
 
 .title .subtitle {
-   justify-content: center;
-   align-items: center;
+   max-width: 696px;
+   margin-left: auto;
+   margin-right: auto;
    margin-bottom: 30px;
-   margin-top: auto;
-   width: 696px;
-   height: 120px;
-
    font-weight: 900;
-   font-size: 44px;
-   line-height: 1.5;
-   text-transform: uppercase;
-   color: var(--text-color-white);
+   line-height: 1.36;
    letter-spacing: 0.06em;
+   text-transform: uppercase;
+   font-size: 44px;
    text-align: center;
+   color: var(--text-color-white);
 }
 
 .button {
@@ -201,22 +203,15 @@ img {
    overflow: hidden;
 }
 
-.section {
-   padding-top: 94px;
-}
-
-.section:last-child {
-   padding-bottom: 94px;
-}
 
 .flex-block {
    display: flex;
    gap: 30px;
 }
 
-.block-subtitle {
-   width: auto;
-   height: auto;
+
+.subject .section:last-child {
+   padding-bottom: 0px;
 }
 
 .subject .subtitle {
@@ -260,7 +255,6 @@ img {
 
 .imeg {
    margin-right: 30px;
-   padding-bottom: 94px;
 }
 
 .imeg:last-child {
@@ -321,12 +315,12 @@ img {
 
 .footer {
    background-color: var(--background-color-fond);
-   height: 252px;
+   padding-top: 60px;
+   padding-bottom: 60px;
 }
 
 .logo-footer {
-   padding-top: 60px;
-   padding-bottom: 20px;
+   margin-bottom: 20px;
 }
 
 
@@ -374,6 +368,7 @@ img {
 .list {
    display: flex;
    font-style: normal;
+   margin-bottom: 50px;
 }
 
 .portfolio .list {
@@ -381,7 +376,6 @@ img {
 }
 
 .list .button {
-   margin-bottom: 34px;
    margin-right: 8px;
 
    background-color: var(--heading-background-color);
@@ -397,11 +391,6 @@ img {
 .list .button:hover,
 .list .button:focus {
    background: var(--button-color);
-   border-radius: 4px;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.62;
-   letter-spacing: 0.03em;
    color: var(--text-color-white);
 }
 
@@ -419,7 +408,10 @@ img {
 }
 
 .items .text {
-   width: 370px;
+   padding-top: 20px;
+   padding-left: 24px;
+   padding-right: 24px;
+   padding-bottom: 20px;
    border-bottom: 1px solid var(--border-items-color);
    border-left: 1px solid var(--border-items-color);
    border-right: 1px solid var(--border-items-color);
@@ -432,9 +424,6 @@ img {
    font-size: 18px;
    line-height: 2;
    letter-spacing: 0.06em;
-   padding-top: 20px;
-   padding-left: 24px;
-   padding-right: 24px;
    margin-bottom: 4px;
 }
 
@@ -442,7 +431,5 @@ img {
    font-size: 16px;
    line-height: 1.88;
    color: var(--text-color-silver);
-   padding-left: 24px;
-   padding-bottom: 20px;
    padding-right: 24px;
 }
